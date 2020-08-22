@@ -1,0 +1,154 @@
+/*定义滚动条宽高及背景，宽高分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+  background-color: #ffffff;
+}
+/*定义滚动条的轨道，内阴影及圆角*/
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: 0 0 1px #dbdfe9;
+  box-shadow: 0 0 1px #dbdfe9;
+  background-color: #ffffff;
+}
+/*定义滑块，内阴影及圆角*/
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+  background-color: #c2c2c2;
+}
+
+.flex {
+  display: flex;
+}
+.clickable {
+  cursor: pointer;
+}
+
+/*快速过滤按钮*/
+.status-text-button {
+  font-weight: bold;
+  font-size: 14px;
+  color: $dark-grey;
+  line-height: 32px;
+  margin-right: 24px;
+}
+.status-text-button-actived {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 32px;
+  margin-right: 24px;
+  color: $light-blue;
+}
+.status-text-button:hover {
+  font-weight: bold;
+  font-size: 14px;
+  color: #5370ff;
+  cursor: pointer;
+}
+/* 自制tab栏 */
+.tab-text {
+  font-weight: bold;
+  font-size: 14px;
+  color: $dark-grey;
+  line-height: 32px;
+  cursor:pointer;
+}
+.tab-text-click {
+  color: $light-blue;
+  cursor: pointer;
+}
+.tab-space {
+  margin: 0 8px;
+}
+/* 带下划线的标准区域 */
+.container-standard {
+  border-bottom: 1px solid $light-grey;
+  margin-bottom: 24px;
+  padding-bottom: 12px;
+  position: relative;
+}
+.container-line-title {
+  margin-bottom: 24px;
+}
+.container-line-item {
+  margin-bottom: 12px;
+  font-size: 0; // 除去inline-block之前的4px间隔
+}
+/* 靠右的按钮 */
+.container-line-button {
+  margin-left: 10px;
+  float: right;
+}
+
+/* 详细页的排布 */
+.title-tag {
+  vertical-align: top;
+}
+.detail-title {
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: bold;
+  color: $black;
+}
+.detail-subtitle {
+  font-size:16px;
+  font-weight: bold;
+  color: $black;
+  padding-left: 4px;
+  border-left: 4px solid #5370FF;
+}
+.detail-form-item {
+  width: 250px;
+}
+.detail-form-name {
+  font-size: 14px;
+  color: $middle-grey;
+}
+.detail-form-name1 {
+  font-size: 14px;
+  width: 80px;
+  color: $middle-grey;
+}
+.detail-form-value {
+  font-size: 14px;
+  color: $dark-grey;
+}
+
+/* 已完成的置灰 */
+.finished-item {
+  color: $middle-grey !important;
+}
+
+// 详情页的详情内容p标签
+.flex p {
+  margin-top: 0;
+}
+
+// 可拖动树形控件
+.custom-tree-node {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  padding-right: 8px;
+}
+
+// 隐藏滚动条
+.no-scrollbar::-webkit-scrollbar {
+  width: 0;
+}
+// 清除浮动
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear:both;
+  visibility: hidden;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

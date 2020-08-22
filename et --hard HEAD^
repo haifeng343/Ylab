@@ -1,0 +1,485 @@
+[33mcommit 4efdfd2ead1db6dd1f5c1556c720466de129c8a8[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Ybr2019 <1069429944@qq.com>
+Date:   Thu Nov 7 17:30:51 2019 +0800
+
+    --story=1000265--user=陶恩颖
+
+[33mcommit f812462285b6b4938f261f1178b78035cf8c7c36[m
+Author: Ybr2019 <1069429944@qq.com>
+Date:   Thu Nov 7 17:23:43 2019 +0800
+
+    --story=1000265--user=陶恩颖
+
+[33mcommit a6b7989b14b9991c15e8e5fddda1449bdb9d1fe5[m
+Author: taotaolv <taotaolv378@126.com>
+Date:   Wed Nov 6 23:01:22 2019 +0800
+
+    --story=1000262--user=乔涛
+
+[33mcommit 04c87465181d290ed795f496f9cf7809f49002bd[m
+Merge: 731c339 7ee3374
+Author: taotaolv <taotaolv378@126.com>
+Date:   Wed Nov 6 19:17:42 2019 +0800
+
+    Merge branch 'master' of https://git.code.tencent.com/ybr.net/Ylab-client
+    
+    # Conflicts:
+    #       src/views/store-manager/out-store-list.vue
+
+[33mcommit 7ee3374a3912636a22b8f2b63483133c6844c226[m
+Author: Ybr2019 <1069429944@qq.com>
+Date:   Wed Nov 6 19:12:12 2019 +0800
+
+    --story1000265=--user=陶恩颖
+
+[33mcommit 731c339989f8c4b0368f1c866f6c2f01b841a9f5[m
+Author: taotaolv <taotaolv378@126.com>
+Date:   Wed Nov 6 19:12:02 2019 +0800
+
+    --story=1000262--user=乔涛
+
+[33mcommit 147e1a0ce3e008372a4513b96b6e14e6a9ec21f7[m
+Author: Ybr2019 <1069429944@qq.com>
+Date:   Wed Nov 6 18:58:45 2019 +0800
+
+    --story1000265=--user=陶恩颖
+
+[33mcommit 0041a8f28d9155d38081fe215a4a1c10dd3d4046[m
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Wed Nov 6 15:33:47 2019 +0800
+
+    bug --user=wxf
+
+[33mcommit bc39a0096d91e932278bc572bf782a5fe99c0619[m
+Merge: cd6a39a 992e843
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Wed Nov 6 15:00:19 2019 +0800
+
+    Merge branch 'master' of https://git.code.tencent.com/ybr.net/Ylab-client
+
+[33mcommit cd6a39a2c5f3698f182bf062ff62b7f70f0ad559[m
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Wed Nov 6 15:00:08 2019 +0800
+
+    bug修复 --user=wxf
+
+[33mcommit 992e843172cf2f5b39698ebe2235c2ea2bd9ce90[m
+Author: taotaolv <taotaolv378@126.com>
+Date:   Tue Nov 5 20:39:01 2019 +0800
+
+    --bug--user=乔涛
+
+[33mcommit a27075ba798c14401d72d011a2a2239c55878e90[m
+Merge: c2ecd92 23600b8
+Author: taotaolv <taotaolv378@126.com>
+Date:   Tue Nov 5 20:33:17 2019 +0800
+
+    Merge branch 'master' of https://git.code.tencent.com/ybr.net/Ylab-client
+
+[33mcommit c2ecd928e38c1f6565a8b74ad7a20afef3577283[m
+Author: taotaolv <taotaolv378@126.com>
+Date:   Tue Nov 5 20:32:28 2019 +0800
+
+    --story=1000262--user=乔涛
+
+[33mcommit 23600b8e048f23129f03c9d69fbdae98af8cedbe[m
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Tue Nov 5 20:17:47 2019 +0800
+
+    no message
+
+[33mcommit e1d449bdf980eac9e80c10aa1500bb2df66107a4[m
+Merge: a646045 bdb3eba
+Author: Ybr2019 <1069429944@qq.com>
+Date:   Tue Nov 5 20:04:56 2019 +0800
+
+    Merge branch 'master' of https://git.code.tencent.com/ybr.net/Ylab-client
+
+[33mcommit a6460456ba3e3375deb94cda5557f2ac63f4a615[m
+Author: Ybr2019 <1069429944@qq.com>
+Date:   Tue Nov 5 20:03:49 2019 +0800
+
+    --story=1000263--user=陶恩颖
+
+[33mcommit b21a3aa9dbafd4db03111d91d06dde5b24ee04e0[m
+Author: Ybr2019 <1069429944@qq.com>
+Date:   Tue Nov 5 20:00:47 2019 +0800
+
+    --story=1000263--user=陶恩颖
+
+[33mcommit bdb3eba22e095fb114a232afc2954dff6f94befd[m
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Tue Nov 5 19:57:40 2019 +0800
+
+    bug --user=wxf
+
+[33mcommit 71557458ab759f1be9bafad63299be0a5f8209fa[m
+Merge: 64fa0f6 838f3ae
+Author: taotaolv <taotaolv378@126.com>
+Date:   Tue Nov 5 16:25:36 2019 +0800
+
+    Merge branch 'master' of https://git.code.tencent.com/ybr.net/Ylab-client
+
+[33mcommit 64fa0f615375fc73a92cefe8892fe9f37e214b27[m
+Author: taotaolv <taotaolv378@126.com>
+Date:   Tue Nov 5 16:24:52 2019 +0800
+
+    --story=1000262--user=乔涛
+
+[33mcommit 838f3ae39a325e1147c5eb616c589939328154eb[m
+Merge: 714da21 bd05049
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Tue Nov 5 16:14:49 2019 +0800
+
+    Merge branch 'master' of https://git.code.tencent.com/ybr.net/Ylab-client
+
+[33mcommit 714da21b83d61edcbe2191ec76daec4c67417865[m
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Tue Nov 5 16:14:33 2019 +0800
+
+    --story=1000263 --user=wxf
+
+[33mcommit bd05049a7c5aec9c4cd024fdc6854759b4b5e5d3[m
+Merge: 8176cf6 1da524e
+Author: Ybr2019 <1069429944@qq.com>
+Date:   Tue Nov 5 14:32:07 2019 +0800
+
+    Merge branch 'master' of https://git.code.tencent.com/ybr.net/Ylab-client
+
+[33mcommit 8176cf65cbd2da6d0a60d4f4a719967a5f8d71e9[m
+Author: Ybr2019 <1069429944@qq.com>
+Date:   Tue Nov 5 14:28:14 2019 +0800
+
+    修改需求
+
+[33mcommit 1da524ebc768f973462a9bcd184a22b19fcf7e65[m
+Merge: 5cf63af a392240
+Author: taotaolv <taotaolv378@126.com>
+Date:   Tue Nov 5 13:32:49 2019 +0800
+
+    Merge branch 'master' of https://git.code.tencent.com/ybr.net/Ylab-client
+
+[33mcommit 5cf63afc512a956a2778de39687834f46a304aa5[m
+Author: taotaolv <taotaolv378@126.com>
+Date:   Tue Nov 5 13:31:24 2019 +0800
+
+    --bug--user=乔涛
+
+[33mcommit a392240956f73e719b07a8a8cf4779fd80ee40ea[m
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Tue Nov 5 13:27:12 2019 +0800
+
+    --story=1000778 --user=wxf
+
+[33mcommit 67018efaadfc7f78b7e3eeaf40de0362acd194c1[m
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Mon Nov 4 22:51:42 2019 +0800
+
+    bug --user=wxf
+
+[33mcommit cb92fe3e13367e53c1a55c9f8b0c6981ec275a45[m
+Merge: 9c3f967 10315b4
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Mon Nov 4 21:16:14 2019 +0800
+
+    Merge branch 'master' of https://git.code.tencent.com/ybr.net/Ylab-client
+    
+    # Conflicts:
+    #       src/views/store-manager/out-store-list.vue
+
+[33mcommit 9c3f96728648bdbd62506b5bd6430a52c860500d[m
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Mon Nov 4 21:15:09 2019 +0800
+
+    bug --user=wxf
+
+[33mcommit 10315b4c0c461d24c73fcf80193d6f18fd116e51[m
+Author: taotaolv <taotaolv378@126.com>
+Date:   Mon Nov 4 20:50:05 2019 +0800
+
+    --bug--user=乔涛
+
+[33mcommit 24c48d65f9b0623d193b2eac42ff2f2823413601[m
+Author: tcangz <wxfok@qq.com>
+Date:   Sat Nov 2 21:34:17 2019 +0800
+
+    bug修复 --user=wxf
+
+[33mcommit 6a8705041701414e2370ff99687d657abc5616b8[m
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Fri Nov 1 18:01:49 2019 +0800
+
+    bug --user=wxf
+
+[33mcommit 280845a1dde3c70a2ad875cb82c305d1c119cfb9[m
+Merge: 1158df9 a795e92
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Fri Nov 1 12:41:21 2019 +0800
+
+    Merge branch 'master' of https://git.code.tencent.com/ybr.net/Ylab-client
+
+[33mcommit 1158df93253ab666b2b7ddeb30b054ebe380e950[m
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Fri Nov 1 12:41:03 2019 +0800
+
+    bug --user=wxf
+
+[33mcommit a795e927a7619f6dce0a3f6d00ba258eb850feaa[m
+Author: taotaolv <taotaolv378@126.com>
+Date:   Fri Nov 1 12:38:46 2019 +0800
+
+    --bug
+
+[33mcommit ad9a267fa439d38eb1e33a182a575f16df109aa0[m
+Merge: e263562 ee473ad
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Fri Nov 1 10:41:03 2019 +0800
+
+    Merge branch 'master' of https://git.code.tencent.com/ybr.net/Ylab-client
+    
+    # Conflicts:
+    #       src/views/purchase-manager/components/purchase-establish.vue
+
+[33mcommit ee473add6f66d0ff292d625d18d0615a7330b64b[m
+Author: taotaolv <taotaolv378@126.com>
+Date:   Fri Nov 1 10:36:08 2019 +0800
+
+    --bug
+
+[33mcommit e263562406624cb1ede24619cf8b80a5862abdd1[m
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Fri Nov 1 10:35:06 2019 +0800
+
+    BUG --user=wxf
+
+[33mcommit 87fcbb7f17584f2f04a776ee9fbe08c7fb6313be[m
+Merge: 0e7fa6d 421da43
+Author: taotaolv <taotaolv378@126.com>
+Date:   Thu Oct 31 16:26:12 2019 +0800
+
+    Merge branch 'master' of https://git.code.tencent.com/ybr.net/Ylab-client
+    
+    # Conflicts:
+    #       src/views/purchase-manager/purchase-list.vue
+
+[33mcommit 0e7fa6d67b3c50cba5dd5e01dd591427306dc729[m
+Author: taotaolv <taotaolv378@126.com>
+Date:   Thu Oct 31 16:23:59 2019 +0800
+
+    no message
+
+[33mcommit 421da43727e3cfdfa44b1172744e2558b3e89bbb[m
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Thu Oct 31 16:17:29 2019 +0800
+
+    bug --user=wxf
+
+[33mcommit aa37838eb3b796694399c60e321b353b65c9c74c[m
+Merge: a2dc20a b4f55ca
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Thu Oct 31 16:16:05 2019 +0800
+
+    Merge branch 'master' of https://git.code.tencent.com/ybr.net/Ylab-client
+    
+    # Conflicts:
+    #       vue.config.js
+
+[33mcommit a2dc20a3afe611fb6b3a709bdd6a187de9f5a9ab[m
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Thu Oct 31 16:14:45 2019 +0800
+
+    bug修复  --user=wxf
+
+[33mcommit b4f55caa60cc0d83038af73f8d456917cba0861a[m
+Author: taotaolv <taotaolv378@126.com>
+Date:   Thu Oct 31 16:10:11 2019 +0800
+
+    --story=1000646--user=乔涛
+
+[33mcommit 335de24b784acf930f311a143e5c0eb9c6641973[m
+Merge: c238ce2 9799663
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Thu Oct 31 11:17:08 2019 +0800
+
+    Merge branch 'master' of https://git.code.tencent.com/ybr.net/Ylab-client
+
+[33mcommit c238ce26bd923f5fbd215a30c7a43493d6898169[m
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Thu Oct 31 11:16:50 2019 +0800
+
+    --story=1000242 --user=wxf
+
+[33mcommit 97996639a9ce5f6be1606da19dfe99d2372e6d86[m
+Author: taotaolv <taotaolv378@126.com>
+Date:   Thu Oct 31 11:15:00 2019 +0800
+
+    --story=1000255--user=乔涛
+
+[33mcommit eda67a887def5bcdd276374ecd487d802a2607aa[m
+Merge: 1853d64 da69e99
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Wed Oct 30 18:57:10 2019 +0800
+
+    Merge branch 'master' of https://git.code.tencent.com/ybr.net/Ylab-client
+    
+    # Conflicts:
+    #       src/views/purchase-manager/purchase-detail.vue
+
+[33mcommit 1853d64984ab7a81680053cd38583f0194d2e1fa[m
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Wed Oct 30 18:54:46 2019 +0800
+
+    --story=1000242 --user=wxf
+
+[33mcommit da69e9927f01a0bc98831b0969e7c89f0f9e5bba[m
+Author: taotaolv <taotaolv378@126.com>
+Date:   Wed Oct 30 18:52:25 2019 +0800
+
+    --story=1000241--user=乔涛
+
+[33mcommit 08e119e1917d512e31bedfa93561b607c3ef139c[m
+Merge: f6c9497 6dd441e
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Wed Oct 30 09:21:09 2019 +0800
+
+    Merge branch 'master' of https://git.code.tencent.com/ybr.net/Ylab-client
+
+[33mcommit 6dd441e9c3ef23cde2b618e28c0371475bbe4697[m
+Author: taotaolv <taotaolv378@126.com>
+Date:   Wed Oct 30 09:20:00 2019 +0800
+
+    --story=1000258--user=乔涛
+
+[33mcommit f6c949748e7f588b3b72311a34cfd524426b3e52[m
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Wed Oct 30 09:18:20 2019 +0800
+
+    BUG修改
+
+[33mcommit 0a937bfa2da53a432f8562c181cc1859de5829a8[m
+Merge: bb11c08 7e587cb
+Author: taotaolv <taotaolv378@126.com>
+Date:   Tue Oct 29 18:49:56 2019 +0800
+
+    Merge branch 'master' of https://git.code.tencent.com/ybr.net/Ylab-client
+
+[33mcommit bb11c084deb670bc358de0d20df410ccb5eed2aa[m
+Author: taotaolv <taotaolv378@126.com>
+Date:   Tue Oct 29 18:48:40 2019 +0800
+
+    --story=1000256--user=乔涛
+
+[33mcommit 7e587cb57ef8a6e061f221f3b2e6d9d4b44d55e0[m
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Tue Oct 29 18:39:00 2019 +0800
+
+    --story=1000242 --user=wxf
+
+[33mcommit 26c82b2775b5ba39d7e80572154025d1b989d98c[m
+Merge: aed3ebd 857e972
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Tue Oct 29 10:47:58 2019 +0800
+
+    Merge branch 'master' of https://git.code.tencent.com/ybr.net/Ylab-client
+
+[33mcommit aed3ebda6e0cfa28e9abcd5817ceb6cf9b9f74d7[m
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Tue Oct 29 10:47:47 2019 +0800
+
+    --story=1000241 --user=wxf
+
+[33mcommit 857e972a1c13d49e18be814c1f80e93b90989e7b[m
+Author: taotaolv <taotaolv378@126.com>
+Date:   Tue Oct 29 10:45:59 2019 +0800
+
+    --story=1000260--user=乔涛
+
+[33mcommit c65b61930dfb7ea362cc0a1915b68f7e48a989be[m
+Merge: cd7bf46 0af524d
+Author: taotaolv <taotaolv378@126.com>
+Date:   Mon Oct 28 19:22:02 2019 +0800
+
+    Merge branch 'master' of https://git.code.tencent.com/ybr.net/Ylab-client
+    
+    # Conflicts:
+    #       src/views/purchase-manager/purchase-list.vue
+
+[33mcommit cd7bf4678eca72f04e5efceb92324d511d7ad9bd[m
+Author: taotaolv <taotaolv378@126.com>
+Date:   Mon Oct 28 19:20:04 2019 +0800
+
+    --story=1000259--user=乔涛
+
+[33mcommit 0af524df32ee3292ef8edefa073537f06117a2b6[m
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Mon Oct 28 19:09:26 2019 +0800
+
+    --story=1000256 --user=wxf
+
+[33mcommit 8acc20fcd4c19f04af701889791db59d87228e32[m
+Merge: 1e16fa4 4b55a8f
+Author: taotaolv <taotaolv378@126.com>
+Date:   Mon Oct 28 17:19:14 2019 +0800
+
+    Merge branch 'master' of https://git.code.tencent.com/ybr.net/Ylab-client
+
+[33mcommit 1e16fa41eb7a788ce40c33ec5f836e87eda52594[m
+Author: taotaolv <taotaolv378@126.com>
+Date:   Mon Oct 28 17:18:20 2019 +0800
+
+    no message
+
+[33mcommit 4b55a8f1bd33973a26900d54c0ab1c1795d43ab5[m
+Merge: 5f3a457 ba8faad
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Mon Oct 28 17:17:00 2019 +0800
+
+    Merge branch 'master' of https://git.code.tencent.com/ybr.net/Ylab-client
+
+[33mcommit 5f3a457f1c5e0e7500619b96f0589484d7d3d2c5[m
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Mon Oct 28 17:16:48 2019 +0800
+
+    --story=1000256 --user=wxf
+
+[33mcommit ba8faada13f882c2010db9243f5f0d1d2890c5d3[m
+Merge: c9a4498 7d790ee
+Author: taotaolv <taotaolv378@126.com>
+Date:   Mon Oct 28 17:11:02 2019 +0800
+
+    Merge branch 'master' of https://git.code.tencent.com/ybr.net/Ylab-client
+
+[33mcommit c9a4498953ba5178f6b393001e0c9f12e9f792f4[m
+Author: taotaolv <taotaolv378@126.com>
+Date:   Mon Oct 28 17:09:51 2019 +0800
+
+    --story=1000239--user=乔涛
+
+[33mcommit 7d790ee31eb1c5305eb25e276561b3c28a757c4f[m
+Merge: 354e09d 0cb5a8e
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Fri Oct 25 19:06:22 2019 +0800
+
+    Merge branch 'master' of https://git.code.tencent.com/ybr.net/Ylab-client
+
+[33mcommit 354e09d8337a17004fa58804340f46813209e7e8[m
+Author: 露转峰回 <wxfok@qq.com>
+Date:   Fri Oct 25 19:06:04 2019 +0800
+
+    no message
+
+[33mcommit 0cb5a8eed4918b12e251f44577bc57c297f752be[m
+Merge: 90ecb6c efd5b90
+Author: taotaolv <taotaolv378@126.com>
+Date:   Fri Oct 25 19:05:02 2019 +0800
+
+    Merge branch 'master' of https://git.code.tencent.com/ybr.net/Ylab-client
+    
+    # Conflicts:
+    #       src/views/contract-manager/contract-list.vue
+
+[33mcommit 90ecb6c90b4c3032ca7065b68ac143d4e285f14f[m
+Author: taotaolv <taotaolv378@126.com>
+Date:   Fri Oct 25 18:59:41 2019 +0800
+
+    --story=1000239--user=乔涛

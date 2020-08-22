@@ -1,0 +1,428 @@
+@media (min-width: 768px){
+  .website.el-row {
+    display: flex;
+    align-items: center;
+  }
+  .price.el-col {
+    padding: 0 15px;
+  }
+  .labName{
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .ylabCloud{
+    font-size: 50px;
+    font-weight:600;
+  }
+  .ylabCloud1{
+    margin-top: 30px;
+    color: #606266;
+    font-size: 24px;
+    line-height:40px;
+  }
+  .ylabCloud2{
+    margin: 50px 0 30px;
+    font-size: 50px; 
+    font-weight:600;
+  }
+  .ylabCloud3{
+    margin:30px 0 36px;
+    color: #606266;
+    font-size: 24px;
+    line-height:40px;
+  }
+  .lab{
+    margin:100px 0 108px;
+    text-align:center;
+    font-size: 32px; 
+    font-weight:600; 
+    justify-content:center;
+    display:flex;
+  }
+  .lab1{
+    margin:100px 0 45px;
+    font-size: 32px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+  }
+  .program{
+    width: 100%;
+    height:500px;
+    background-color: #FBFCFE;
+    display:flex;
+    align-items:center;
+  }
+  .program1{
+    width: 100%;
+    height:500px;
+    display:flex;
+    align-items:center;
+  }
+  .program2{
+    width: 100%;
+    background-color: #FBFCFE;
+    padding: 100px 0 ;
+    display:flex;
+    align-items:center;
+  }
+  .program3{
+    width: 100%;
+    padding: 100px 0 ;
+    display:flex;
+    align-items:center;
+  }
+  .text1{
+    font-size:32px; 
+    line-height:45px;
+  }
+  .text2{
+    color:#606266;
+    font-size:20px;
+    line-height:36px;
+    margin-top:12px;
+  }
+  .ways{
+    margin-bottom: 45px;
+  }
+  .way{
+    text-align: center;
+    padding: 0 20px;
+    div{
+      margin: 24px 0 0;
+    }
+  }
+  .mole{
+    width: 100%;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    background:linear-gradient(310deg,rgba(204,225,253,1) 0%,rgba(209,229,251,1) 100%);
+    margin:0 auto;
+    position: relative;
+    margin-top: 95px;
+  }
+  .beginDiv {
+    text-align: center;
+    // margin-bottom: 50px;
+  }
+  .moleDiv {
+    width: 30%;
+  }
+  .serve{
+    margin-bottom: 64px;
+  }
+  .platForm{
+    padding-left: 62px;
+  }
+  .freeTry{
+    font-size:14px;
+    color:#606266;
+    text-align:center;
+    margin-bottom:83px;
+  }
+  .freeware{
+    text-align: center;
+  }
+  .freeware .el-button {
+    width: 30%;
+    height: 60px;
+    font-size: 28px;
+    margin-bottom: 50px;
+  }
+  .priceBottom{
+    margin-bottom: 80px;
+  }
+  .sole{
+    height: 294px;
+    .soleContent{
+      margin-top:78px;
+      .soleLogo{
+        margin-right:128px;
+        height: 33px;
+      }
+      ul{
+        width: 132px;
+        list-style: none;
+        li{
+          color: rgba(255,255,255,.4);
+          font-size: 12px;
+          margin-bottom:16px;
+          &:first-child{
+            color:rgba(255, 255, 255, 1);
+            margin-bottom:24px;
+            font-size: 16px;
+            &:hover{
+              color: #fff;
+            }
+          }
+          a{
+            text-decoration:none;
+            color: rgba(255,255,255,.4);
+            &:hover{
+              color: #3385FF;
+            }
+          }
+          &:hover{
+            color: #3385FF;
+          }
+        }
+      }
+    }
+  }
+  .begin{
+    background-color: #3B5BFC;
+  }
+  .begin:hover{
+    background-color: #82B9FA;
+  }
+  .labHeader{
+    margin: 140px auto;
+  }
+  .labRights{
+    padding: 140px 0;
+  }
+  .getVideo{
+    font-size:34px;
+    font-weight:500;
+    color:#303133;
+  }
+  .bottom{
+    margin-top: 68px;
+    width: 100%;
+    height:calc(100vh - 68px);
+    background: url('http://erp-new.oss-cn-beijing.aliyuncs.com/erp/file/20191107/1573109765143-%E6%B3%A8%E5%86%8C%E7%99%BB%E5%BD%95%E8%83%8C%E6%99%AF.png?Expires=1888469765&OSSAccessKeyId=LTAI4GKZ53eoTEYTTdfszb8Z&Signature=y2BeM%2FsLInus7xUMMkPvvsvGMgA%3D') no-repeat;
+    background-size: 100% 100%;
+  }
+  .content{
+    width: 340px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+}
+@media (max-width: 768px){
+  .btnDiv{
+    text-align:center;
+    margin-bottom:50px;
+  }
+  .labName{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 600;
+    margin:30px 0 20px;
+  }
+  .ylabCloud{
+    text-align: center;
+    font-size: 38px; 
+    font-weight:600;
+    margin:30px 0 20px;
+  }
+  .ylabCloud1{
+    margin-top: 10px;
+    color: #606266;
+    font-size: 20px;
+    line-height:32px;
+  }
+  .ylabCloud2{
+    margin: 70px 0 20px;
+    font-size: 38px; 
+    font-weight:600;
+  }
+  .ylabCloud3{
+    margin:10px 0 16px;
+    color: #606266;
+    font-size: 20px;
+    line-height:32px;
+  }
+  .lab,.lab1{
+    margin: 50px 0 30px;
+    text-align:center;
+    font-size: 28px;
+    font-weight:600; 
+    justify-content:center;
+    display:flex;
+  }
+  .program{
+    padding: 50px 0 ;
+    background-color: #FBFCFE;
+  }
+  .program1{
+    padding: 50px 0 ;    
+  }
+  .program2{
+    width: 100%;
+    background-color: #FBFCFE;
+    padding: 50px 0 ;
+    display:flex;
+    align-items:center;
+  }
+  .program3{
+    width: 100%;
+    padding: 50px 0 ;
+    display:flex;
+    align-items:center;
+  }
+  .text1{
+    font-size:28px; 
+    line-height:28px;
+  }
+  .text2{
+    color:#606266;
+    font-size:16px;
+    line-height:24px;
+    margin-top:12px;
+  }
+  .ways{
+    justify-content: center;
+  }
+  .way{
+    text-align: center;
+    margin-bottom: 40px;
+    &:last-child{
+      margin-bottom: 0;
+    }
+    div{
+      width: 60%;
+      margin: 20px auto 0;
+    }
+  }
+  .mole{
+    width: 100%;
+    height: 220px;
+    padding: 20px 0px;
+    box-sizing: border-box;
+    background:linear-gradient(310deg,rgba(204,225,253,1) 0%,rgba(209,229,251,1) 100%);
+    margin:0 auto;
+    position: relative;
+    margin-top: 95px;
+  }
+  .moleDiv {
+    width: 220px;
+    text-align: center;
+  }
+  .serve{
+    margin-bottom: 32px;
+  }
+  .platForm{
+    width: 60%;
+    margin: 0 auto;
+  }
+  .freeTry{
+    font-size:14px;
+    color:#606266;
+    text-align:center;
+    margin-bottom:30px;
+  }
+  .freeware{
+    text-align: center;
+  }
+  .freeware .el-button {
+    width: 50%;
+    height: 50px;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .labHeader{
+    margin: 83px auto 20px;
+  }
+  .labRights{
+    padding: 70px 0;
+  }
+  .getVideo{
+    font-size:28px;
+    font-weight:500;
+    color:#303133;
+  }
+  .bottom{
+    margin-top: 68px;
+    width: 100%;
+    height:calc(100vh - 68px);
+    background: url('http://erp-new.oss-cn-beijing.aliyuncs.com/erp/file/20191107/1573109765143-%E6%B3%A8%E5%86%8C%E7%99%BB%E5%BD%95%E8%83%8C%E6%99%AF.png?Expires=1888469765&OSSAccessKeyId=LTAI4GKZ53eoTEYTTdfszb8Z&Signature=y2BeM%2FsLInus7xUMMkPvvsvGMgA%3D') no-repeat;
+    background-size: 100% 100%;
+  }
+  .content{
+    width: 100%;
+    max-width: 340px;
+    height: 100%;
+    margin: auto;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+  }
+  .priceBottom{
+    margin-bottom: 30px;
+  } 
+}
+// 共用样式
+.clearfix:after{
+  content: "";
+  display: block;
+  height: 0;
+  clear:both;
+  visibility: hidden;
+}
+.model {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.clickBtn.el-button {
+  margin-top:30px;
+  width: 35%;
+  height: 54px;
+  font-size: 14px;
+}
+.mgb{
+  margin-bottom:20px;
+}
+.beginBtn {
+  width: 50%;
+  height: 54px;
+  font-size: 14px;
+}
+.priceDiv {
+  margin-top: 30px;
+  .priceBtn {
+    width: 45%;
+    height: 48px;
+    font-size: 16px;
+  }
+}
+.img-try {
+  width: 100%;
+  height: 106px;
+  background:url('../assets/image/try.png') no-repeat;
+  background-size: 100% 100%;
+  font-size: 28px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-standard {
+  width: 100%;
+  height: 106px;
+  background:url('../assets/image/standard.png') no-repeat;
+  background-size: 100% 100%;
+  font-size: 28px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-science {
+  width: 100%;
+  height: 106px;
+  background:url('../assets/image/scienceServe.png') no-repeat;
+  background-size: 100% 100%;
+  font-size: 28px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.indexBtn .el-button {
+  font-size: 14px;
+}

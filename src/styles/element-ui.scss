@@ -1,0 +1,236 @@
+// cover some element-ui styles
+
+.el-breadcrumb__inner,
+.el-breadcrumb__inner a {
+  font-weight: 400 !important;
+}
+
+.el-upload {
+  input[type="file"] {
+    display: none !important;
+  }
+}
+
+.el-upload__input {
+  display: none;
+}
+
+.cell {
+  .el-tag {
+    margin-right: 0px;
+  }
+}
+
+.small-padding {
+  .cell {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+.fixed-width {
+  .el-button--mini {
+    padding: 7px 10px;
+    width: 60px;
+  }
+}
+
+.status-col {
+  .cell {
+    padding: 0 10px;
+    text-align: center;
+
+    .el-tag {
+      margin-right: 0px;
+    }
+  }
+}
+
+// to fixed https://github.com/ElemeFE/element/issues/2461
+.el-dialog {
+  transform: none;
+  left: 0;
+  position: relative;
+  margin: 0 auto;
+}
+
+// refine element ui upload
+.upload-container {
+  .el-upload {
+    width: 100%;
+
+    .el-upload-dragger {
+      width: 100%;
+      height: 200px;
+    }
+  }
+}
+
+// dropdown
+.el-dropdown-menu {
+  a {
+    display: block
+  }
+}
+
+// fix date-picker ui bug in filter-item
+.el-range-editor.el-input__inner {
+  display: inline-flex !important;
+}
+//无边框输入框
+.no-border .el-input__inner {
+  border:0;
+  padding: 0;
+}
+// small表格字号自定义 12px->14px
+.el-table--small {
+  font-size: 14px;
+}
+// 上传控件，链接文字颜色自定义
+.el-upload-list__item-name {
+  color: $blue
+}
+.el-upload-list__item-name:hover {
+  color: $light-blue
+}
+
+// 纵向表单
+.ybr-form-col {
+  .el-form-item__label {
+    width: 80px;
+  }
+  // 表单输入框空间
+  .el-form-item__content {
+    width: 100%;
+  }
+  .el-input {
+    width: calc(100% - 80px);
+  }
+  .el-select {
+    width: calc(100% - 80px);
+    .el-input {
+      width: 100%;
+    }
+  }
+
+  .el-form-item:last-child {
+    margin-bottom: 0
+  }
+}
+// 横向表单
+.ybr-form-row {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  font-size: 0; // 除去inline-block之前的4px间隔
+  // 表单名称留5个字符宽 14*5 + 12(margin-right)
+  .el-form-item__label {
+    width: 90px;
+    padding-right: 0;
+  }
+  // 表单输入框空间
+  .el-form-item__content {
+    width: calc(100% - 100px);
+  }
+  .el-input-number {
+    width: 100%;
+  }
+  .el-select {
+    width: 100%;
+  }
+  .el-date-editor{
+    width:100%;
+  }
+}
+// 保证日期区间控件中的日期不会被截取
+@media only screen and (max-width: 1400px) {
+  .ybr-form-row {
+    .el-form-item {
+      width: calc(50% - 14px);
+    }
+    .businessContract.el-form-item {
+      width: calc(100% - 14px);
+    }
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .ybr-form-row {
+    .el-form-item {
+      width: calc(33% - 14px);
+    }
+    .businessContract.el-form-item {
+      width: calc(66% - 14px);
+    }
+  }
+}
+@media only screen and (min-width: 1720px) {
+  .ybr-form-row {
+    .el-form-item {
+      width: calc(25% - 14px);
+    }
+    .businessContract.el-form-item {
+      width: calc(50% - 14px);
+    }
+  }
+}
+
+// 保证日期区间控件中间的分隔文字能完全显示
+.el-date-editor .el-range-separator {
+  width: 23px;
+}
+
+.el-checkbox-group {
+  display: inline-block;
+}
+
+.el-checkbox {
+  padding: 8px 0;
+}
+
+.el-table {
+  color: $dark-grey;
+  .cell {
+    text-overflow: clip !important;
+  }
+}
+
+.el-submenu {
+  font-weight: bold;
+}
+
+.el-menu-item {
+  font-weight: bold;
+}
+
+.el-table .cell .el-checkbox {
+  padding: 0;
+}
+
+// 修复eleme表头错位
+.el-table th.gutter {
+  display: table-cell !important;
+}
+
+.el-table colgroup.gutter {
+  display: table-cell !important;
+}
+// 去除数字输入框的上下箭头
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"]{
+  -moz-appearance: textfield;
+}
+
+.el-message {
+  top: 20px !important;
+}
+// 改变info按钮disable类型的文字颜色
+.el-button--info.is-disabled, .el-button--info.is-disabled:hover {
+  color: #606266;
+}
+
+.el-tag--small {
+  line-height: 24px;
+}
