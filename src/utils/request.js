@@ -5,7 +5,8 @@ import router1 from '@/pages/lab/router'
 import store from './../store'
 // create an axios instance
 const service = axios.create({
-  baseURL: 'http://test.web.yibeirui.com:5550/admin', // url = base url + request url
+  // baseURL: 'http://test.web.yibeirui.com/admin', // url = base url + request url
+  baseURL: 'http://www.yibeirui.com/admin', // url = base url + request url
   withCredentials: true, // send cookies when cross-domain requests
   timeout: 30000 // request timeout
 })

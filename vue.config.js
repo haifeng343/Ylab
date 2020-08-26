@@ -13,11 +13,23 @@ const name = defaultSettings.title || 'YLab' // page title
 // For example, Mac: sudo npm run
 // You can change the port by the following method:
 // port = 9527 npm run dev OR npm run dev --port = 9527
-//const port = process.env.port || process.env.npm_config_port || 9527 // dev port
+// const port = process.env.port || process.env.npm_config_port || 9527 // dev port
 // All configuration item explanations can be find in https://cli.vuejs.org/config/
 
 module.exports = {
   pages: {
+    standard: {
+      entry: 'src/pages/standard/main.js',
+      template: 'public/standard.html',
+      filename: 'standard.html',
+      chunks: ['chunk-libs', 'chunk-commons', 'chunk-elementUI', 'runtime', 'standard']
+    },
+    enterprise: {
+      entry: 'src/pages/enterprise/main.js',
+      template: 'public/enterprise.html',
+      filename: 'enterprise.html',
+      chunks: ['chunk-libs', 'chunk-commons', 'chunk-elementUI', 'runtime', 'enterprise']
+    },
     lab: {
       entry: 'src/pages/lab/main.js',
       template: 'public/lab.html',
@@ -25,23 +37,23 @@ module.exports = {
       chunks: ['chunk-libs', 'chunk-commons', 'chunk-elementUI', 'runtime', 'lab']
     }
   },
-  publicPath:'./',
+  publicPath:process.env.NODE_ENV =='development'?process.env.BASE_URL:'./',
   outputDir: 'dist',
   assetsDir: 'static',
-  lintOnSave: true,
+  lintOnSave: process.env.NODE_ENV === 'development',
   productionSourceMap: false,
   devServer: {
-    port:5550,
-    // port: 8080,
-    // open: true,
-    // publicPath: '/html/',
+    port: 5550,
+    open: true,
+    publicPath: '',
     overlay: {
       warnings: false,
-      errors: false
+      errors: true
     },
     proxy:{
       '/admin':{
-        target:'http://test.yibeirui.com:5550',
+        // target:'http://test.web.yibeirui.com/admin',
+         target:'http://www.yibeirui.com/admin',
         changeOrigin:true
       }
     }

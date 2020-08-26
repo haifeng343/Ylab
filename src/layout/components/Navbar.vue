@@ -139,11 +139,8 @@ export default {
       await getDeptMember({ pageNo: 1, pageSize: 20 }).then(res => {
         this.total = res.data.total
       })
-      if (this.total > 50) {
-        this.$store.state.user.inviteLimitDialog = true
-      } else {
-        this.$store.state.user.inviteDialog = true
-      }
+
+      this.$store.state.user.inviteDialog = true
     }
   }
 }
